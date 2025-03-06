@@ -1,10 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "chatgpclipboard"
+name = "clipllm"
 version = "0.1.0"
-description = "Add your description here"
+description = "Descripción corta de clipLLM"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "litellm>=1.63.0",
-    "pyqt5>=5.15.11",
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Tu Nombre", email = "tu.correo@example.com"}
 ]
+
+[project.scripts]
+clip-llm = "clipllm.clipllm:main"

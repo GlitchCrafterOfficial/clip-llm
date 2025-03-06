@@ -10,19 +10,20 @@ def main():
     args = parser.parse_args()
 
     if args.settings:
-        from src.settings import main as settings_main
+        from .settings import main as settings_main
         settings_main()
     if args.init:
-        from src.bind_keys import main as bind_keys_main
+        from .bind_keys import main as bind_keys_main
         bind_keys_main()
     if args.run:
         if os.name == 'nt':
-            from src.main_windows import main as main_windows_main
+            from .main_windows import main as main_windows_main
             main_windows_main()
         else:
-            from src.main_linux import main as main_linux_main
+            from .main_linux import main as main_linux_main
             main_linux_main()
 
 
 if __name__ == "__main__":
     main()
+
