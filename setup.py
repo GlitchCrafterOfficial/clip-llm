@@ -9,9 +9,9 @@ with open('requirements.txt', 'r', encoding='utf-8') as f:
 setup(
     name="clipllm",  # Changed from clip-llm to clipllm (no hyphen)
     version="0.1.0",  # Adding explicit version
-    author="Tu Nombre",
-    author_email="tu.correo@example.com",
-    description="Descripción corta de clipLLM",
+    author="GlitchcrafterOfficial",
+    author_email="jcrispis57@example.com",
+    description="Es una herramienta que te permite utilizar un llm con el clipboard",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/tu_usuario/clipLLM",

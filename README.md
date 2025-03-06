@@ -1,8 +1,6 @@
-Absolutely! Let's inject some more "estilo" into the description of `clip-llm`.  Here's a revised version that aims to be more engaging, highlight the benefits more clearly, and use more evocative language, while keeping all the essential information:
-
----
-
 ## Unleash the Power of LLMs at Your Fingertips with clip-llm for Linux! 🚀
+
+
 
 Tired of switching between windows to harness the intelligence of Large Language Models?  Imagine a world where AI assistance is just a hotkey away, seamlessly integrated into your Linux workflow.  Enter **clip-llm**, the lightweight Python package that transforms your clipboard into a portal to powerful LLMs!
 
